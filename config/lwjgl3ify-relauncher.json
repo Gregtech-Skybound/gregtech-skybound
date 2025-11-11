@@ -1,0 +1,22 @@
+{
+  "javaInstallationsCache": [
+    "/usr/lib/jvm/default-runtime/bin/java",
+    "/usr/lib/jvm/default/bin/java",
+    "/usr/lib/jvm/java-21-openjdk/bin/java"
+  ],
+  "javaInstallation": 2,
+  "minMemoryMB": 512,
+  "maxMemoryMB": 4096,
+  "garbageCollector": "ZGC",
+  "customOptions": [],
+  "hideSettingsOnLaunch": false,
+  "forwardLogs": false,
+  "allowDebugger": false,
+  "waitForDebugger": false,
+  "mixinDebug": false,
+  "mixinDebugExport": false,
+  "mixinDebugCount": false,
+  "fmlDebugAts": false,
+  "rfbDumpClasses": false,
+  "rfbDumpPerTransformer": false
+}

@@ -1,0 +1,13 @@
+name = "OAuth"
+filename = "oauth-1.06.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cefbdb74897dd11c713a9a73b9075caafb25c64d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3739783
+project-id = 513857

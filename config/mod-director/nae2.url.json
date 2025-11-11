@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/Irgendwer01/NAE2/releases/download/1.6.4/nae2-1.6.4-16-g90bb4aa.jar",
+    "installationPolicy": {
+       	   "continueOnFailedDownload": false,
+       	   "selectedByDefault": true,
+           "name": "NAE2",
+       	   "description": "(NEEDED!) Addon for AE2"
+    }
+}

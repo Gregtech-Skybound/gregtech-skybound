@@ -1,0 +1,31 @@
+{
+    "url": [
+        {
+            "url": "https://github.com/Gregtech-Skybound/IntegratedCombinations/releases/download/2.0.0/commoncapabilities-1.12.2-3.0.0.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "Common Capabilities",
+       	        "description": "(NEEDED!) Dependency for Integrated Combinations"
+            }   
+        },
+        {
+            "url": "https://github.com/Gregtech-Skybound/IntegratedCombinations/releases/download/2.0.0/CyclopsCore-1.12.2-3.0.0.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "Cyclops Core",
+       	        "description": "(NEEDED!) Dependency for Integrated Combinations"
+            }   
+        },
+        {
+            "url": "https://github.com/Gregtech-Skybound/IntegratedCombinations/releases/download/2.0.0/integratedcombinations-1.12.2-2.0.0.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "Integrated Combinations",
+       	        "description": "(NEEDED!) Fork of Integrated Dynamics + Addons combined in one Modhttps://www.youtube.com/watch?v=yO4S5fyBv8k@ni"
+            }   
+        }
+    ]
+}

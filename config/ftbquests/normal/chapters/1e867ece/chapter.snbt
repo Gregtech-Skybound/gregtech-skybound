@@ -1,0 +1,6 @@
+{
+	title: "Age 0 - Void Age",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

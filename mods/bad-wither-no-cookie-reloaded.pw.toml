@@ -1,0 +1,13 @@
+name = "Bad Wither No Cookie - Reloaded"
+filename = "badwithernocookiereloaded-1.12.2-3.4.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11ab53b71d86a7da97e5fa1a1705b62aa8da2b9c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3045651
+project-id = 261251

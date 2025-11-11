@@ -1,0 +1,13 @@
+name = "Borderless Mining"
+filename = "FullscreenWindowed-1.12-1.6.0-1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c528e8846de3985ec1f32583e8fe2467c8fced5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2654481
+project-id = 310205

@@ -1,0 +1,13 @@
+name = "Forked Proxy"
+filename = "forkedproxy-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3f56df33d1a78def141821dab3c744c8c5ffe28f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4810992
+project-id = 687633

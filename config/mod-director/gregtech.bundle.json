@@ -1,0 +1,64 @@
+{
+    "url":
+    [
+        {
+            "url": "https://github.com/Irgendwer01/GSECore/releases/download/3.0/GSECore-1.12.2-3.0.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "GSECore",
+       	        "description": "(NEEDED!) Coremod for Gregtech: Skybound"
+            }   
+        },
+
+        {
+            "url": "https://github.com/Gregtech-Skybound/GCYL-CEu/releases/download/Skybound/gcyl-ceu-0.1.0.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "GCYL: CEu",
+       	        "description": "(NEEDED!) Addon for Gregtech, expanding content alot"
+            }   
+        },
+
+        {
+            "url": "https://github.com/Gregtech-Skybound/GCYL-CEu/releases/download/Skybound/gregtech-1.12.2-2.9.0-beta.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "Gregtech CEu",
+       	        "description": "(NEEDED!) Gregtech CEu itself, built from source"
+            }   
+        },
+
+        {
+            "url": "https://github.com/Gregtech-Skybound/GCYL-CEu/releases/download/Skybound/MaterialReplication-1.2.7.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "Material Replication",
+       	        "description": "(NEEDED!) Dependency for GCYL: CEu"
+            }   
+        },
+
+        {
+            "url": "https://github.com/Gregtech-Skybound/GCYL-CEu/releases/download/Skybound/GregicalityMultiblocks-1.3.0.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "Gregicality Multiblocks",
+       	        "description": "(NEEDED!) Dependency for GCYL: CEu"
+            }   
+        },
+
+        {
+            "url": "https://github.com/Gregtech-Skybound/GCYL-CEu/releases/download/Skybound/Supercritical-0.0.2.jar",
+            "installationPolicy": {
+       	        "continueOnFailedDownload": false,
+       	        "selectedByDefault": true,
+                "name": "Supercritical",
+       	        "description": "(NEEDED!) Dependency for GCYL: CEu"
+            }   
+        }
+    ]
+}

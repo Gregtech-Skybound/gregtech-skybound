@@ -1,0 +1,13 @@
+name = "Blockcraftery"
+filename = "blockcraftery-1.12.2-1.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5962fc2af3644f010e6510829244cb55ab097eda"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2716712
+project-id = 278882

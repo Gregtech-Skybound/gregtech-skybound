@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 340,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -42,7 +42,9 @@
       "default": {
         "textOverride": "Playing on {server.motd.raw}"
       }
-    }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
   },
   "statusMessages": {
     "mainMenuData": {
@@ -123,19 +125,13 @@
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
       "Irgendwer1": "https://mc-heads.net/avatar/a7d91a8e1d744fec869fc3a316ce351d",
-      "default": "https://via.placeholder.com/256.png"
+      "gse-new.bratwurst-land.com": "https://api.mcsrvstat.us/icon/gse-new.bratwurst-land.com"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",

@@ -1,0 +1,13 @@
+name = "VintageDisplay"
+filename = "DuraDisplay-1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89d7f24e6e39b34670909b156c1a54e24e52cb0d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7102951
+project-id = 1255064

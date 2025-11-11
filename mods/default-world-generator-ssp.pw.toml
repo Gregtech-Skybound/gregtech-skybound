@@ -1,0 +1,13 @@
+name = "Default World Generator without Server Side Prompts"
+filename = "DefaultWorldGenerator-port-1.12-2.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5077eb323251b8fa3da222a4ced897525f512c47"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3337685
+project-id = 490698

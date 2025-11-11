@@ -1,0 +1,13 @@
+name = "Wopper"
+filename = "Wopper-1.12-r5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e41c01a84e508dea95ebe1e62044095e2532ce50"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2456802
+project-id = 269377

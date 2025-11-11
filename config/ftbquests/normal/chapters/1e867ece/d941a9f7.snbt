@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"TBD"
+	],
+	tasks: [{
+		uid: "00a6b4a2",
+		type: "checkmark",
+		title: "Welcome",
+		icon: "gregtech:meta_item_1 1 9"
+	}],
+	rewards: [{
+		uid: "5a4fbdd5",
+		type: "item",
+		item: "minecraft:dirt"
+	},
+	{
+		uid: "edf03c34",
+		type: "choice",
+		icon: "minecraft:sapling",
+		table: 0
+	}]
+}

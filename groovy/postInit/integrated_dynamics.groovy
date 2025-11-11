@@ -1,5 +1,4 @@
 mods.jei.ingredient.yeet(item('integrateddynamics:coal_generator'))
-mods.jei.ingredient.yeet(item('integrateddynamics:energy_battery'))
 mods.jei.ingredient.yeet(item('integrateddynamics:mechanical_squeezer'))
 mods.jei.ingredient.yeet(item('integrateddynamics:mechanical_drying_basin'))
 mods.jei.ingredient.yeet(item('integrateddynamics:squeezer'))
@@ -9,6 +8,18 @@ crafting.removeByOutput(item('integrateddynamics:logic_director'))
 crafting.removeByOutput(item('integrateddynamics:cable'))
 crafting.removeByOutput(item('integrateddynamics:part_static_light_panel_item'))
 crafting.removeByOutput(item('integrateddynamics:part_display_panel_item'))
+crafting.removeByOutput(item('integratedtunnels:part_interface_item_item'))
+crafting.removeByOutput(item('integratedtunnels:part_interface_fluid_item'))
+crafting.removeByOutput(item('integratedcrafting:part_interface_crafting_item'))
+crafting.removeByOutput(item('integratedterminals:part_terminal_storage_item'))
+crafting.removeByOutput(item('integratedterminals:part_terminal_crafting_job_item'))
+crafting.removeByOutput(item('integrateddynamics:energy_battery'))
+crafting.removeByOutput(item('integrateddynamics:part_connector_mono_directional_item'))
+crafting.removeByOutput(item('integrateddynamics:part_connector_omni_directional_item'))
+
+
+crafting.addShapeless('id_storage_terminal', item('integratedterminals:part_terminal_storage_item'), [item('integrateddynamics:part_display_panel_item'), item('minecraft:crafting_table')])
+crafting.addShapeless('id_crafting_terminal', item('integratedterminals:part_terminal_crafting_job_item'), [item('integrateddynamics:part_display_panel_item'), item('integratedcrafting:part_interface_crafting_item')])
 
 crafting.addShapeless('light_to_display_panel', item('integrateddynamics:part_display_panel_item'), [item('integrateddynamics:part_static_light_panel_item'), ore('craftingToolScrewdriver')])
 crafting.addShapeless('display_to_light_panel', item('integrateddynamics:part_static_light_panel_item'), [item('integrateddynamics:part_display_panel_item'), ore('craftingToolScrewdriver')])
@@ -17,6 +28,21 @@ crafting.addShaped('id_facade', item('integrateddynamics:facade')*16,
 [[null , metaitem('rubber_drop'), null],
  [metaitem('rubber_drop'), item('integrateddynamics:crystalized_menril_block'), metaitem('rubber_drop')],
  [null, metaitem('rubber_drop'), null]])
+
+crafting.addShaped('id_crafting_interface', item('integratedcrafting:part_interface_crafting_item'),
+[[metaitem('plateTitanium'), item('integrateddynamics:variable_transformer'), metaitem('plateTitanium')],
+ [ore('circuitEv'), item('minecraft:crafting_table'), ore('circuitEv')],
+ [metaitem('plateTitanium'), item('integrateddynamics:variable_transformer', 1), metaitem('plateTitanium')]])
+
+crafting.addShaped('id_item_interface', item('integratedtunnels:part_interface_item_item')*2,
+[[null, null, null],
+ [item('integrateddynamics:crystalized_menril_chunk'), metaitem('ulv_covers:conveyor.module.ulv'), item('integrateddynamics:crystalized_menril_chunk')],
+ [item('integrateddynamics:crystalized_menril_chunk'), item('integrateddynamics:crystalized_menril_chunk'), item('integrateddynamics:crystalized_menril_chunk')]])
+
+crafting.addShaped('id_fluid_interface', item('integratedtunnels:part_interface_fluid_item')*2,
+[[null, null, null],
+ [item('integrateddynamics:crystalized_menril_chunk'), metaitem('ulv_covers:electric.pump.ulv'), item('integrateddynamics:crystalized_menril_chunk')],
+ [item('integrateddynamics:crystalized_menril_chunk'), item('integrateddynamics:crystalized_menril_chunk'), item('integrateddynamics:crystalized_menril_chunk')]])
 
 crafting.addShaped('id_light_panel', item('integrateddynamics:part_static_light_panel_item'),
 [[metaitem('plateSteel'), item('integrateddynamics:variable'), metaitem('plateSteel')],
@@ -27,6 +53,26 @@ crafting.addShaped('id_cable', item('integrateddynamics:cable')*6,
 [[item('integrateddynamics:crystalized_menril_chunk'), item('integrateddynamics:crystalized_menril_chunk'), item('integrateddynamics:crystalized_menril_chunk')],
  [metaitem('wireGtSingleRedAlloy'), metaitem('wireGtSingleRedAlloy'), metaitem('wireGtSingleRedAlloy')],
  [item('integrateddynamics:crystalized_menril_chunk'), item('integrateddynamics:crystalized_menril_chunk'), item('integrateddynamics:crystalized_menril_chunk')]])
+
+crafting.addShaped('id_battery', item('integrateddynamics:energy_battery'),
+[[ore('batteryLv') , item('integrateddynamics:crystalized_menril_block'), ore('batteryLv')],
+ [ore('batteryLv'), metaitem('hull.lv'), ore('batteryLv')],
+ [item('integrateddynamics:crystalized_menril_block'), metaitem('cableGtQuadrupleTin'), item('integrateddynamics:crystalized_menril_block')]])
+
+crafting.addShaped('id_portable_terminal', item('integratedterminals:terminal_storage_portable'),
+[[ore('plateTitanium') , metaitem('wireless'), ore('plateTitanium')],
+ [ore('circuitEv'), item('integratedterminals:part_terminal_storage_item'), ore('circuitEv')],
+ [ore('plateTitanium'), item('integrateddynamics:energy_battery'), ore('plateTitanium')]])
+
+crafting.addShaped('id_mono_connector', item('integrateddynamics:part_connector_mono_directional_item')*2,
+[[ore('plateStainlessSteel') , metaitem('emitter.hv'), ore('plateStainlessSteel')],
+ [ore('circuitHv'), item('integrateddynamics:cable'), ore('circuitHv')],
+ [ore('plateStainlessSteel'), metaitem('sensor.hv'), ore('plateStainlessSteel')]])
+
+ crafting.addShaped('id_omni_connector', item('integrateddynamics:part_connector_omni_directional_item'),
+[[ore('plateTungstenSteel') , item('appliedenergistics2:material', 47), ore('plateTungstenSteel')],
+ [ore('circuitIv'), item('integrateddynamics:part_connector_mono_directional_item'), ore('circuitIv')],
+ [ore('plateTungstenSteel'), item('integrateddynamics:logic_director'), ore('plateTungstenSteel')]])
 
 mods.integrateddynamics.mechanical_squeezer.removeAll()
 mods.integrateddynamics.mechanical_drying_basin.removeAll()
@@ -45,6 +91,19 @@ mods.gregtech.extractor.recipeBuilder()
         .outputs(item('integrateddynamics:crystalized_chorus_chunk')*3)
         .EUt(32)
         .duration(50)
+        .buildAndRegister()
+
+mods.gregtech.alloy_smelter.recipeBuilder()
+	.inputs(ore('blockGlass'), item('integrateddynamics:crystalized_menril_chunk')*4)
+        .outputs(item('integratedterminals:menril_glass'))
+        .EUt(8)
+        .duration(150)
+        .buildAndRegister()
+mods.gregtech.alloy_smelter.recipeBuilder()
+	.inputs(ore('blockGlass'), item('integrateddynamics:crystalized_chorus_chunk')*4)
+        .outputs(item('integratedterminals:chorus_glass'))
+        .EUt(8)
+        .duration(150)
         .buildAndRegister()
 
 mods.gregtech.alloy_smelter.recipeBuilder()

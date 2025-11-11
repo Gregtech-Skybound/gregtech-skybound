@@ -1,0 +1,13 @@
+name = "Main Menu Scale"
+filename = "MainMenuScale-1.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ed5d032257e58807832036930f637ddfaa00029"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2683258
+project-id = 310375

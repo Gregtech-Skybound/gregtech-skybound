@@ -1,0 +1,13 @@
+name = "Integrated Computers"
+filename = "ocid-1.0.0-RC1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a71031a341b54bc13c2490ee0a820364640763f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5105010
+project-id = 974298

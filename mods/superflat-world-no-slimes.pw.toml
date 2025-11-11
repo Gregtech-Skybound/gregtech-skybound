@@ -1,0 +1,13 @@
+name = "Superflat World No Slimes"
+filename = "superflatworldnoslimes_1.12.2-1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d24930a0721f321c371602355d7dd40cbc6aaecb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3219257
+project-id = 344185

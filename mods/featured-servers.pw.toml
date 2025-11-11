@@ -1,0 +1,13 @@
+name = "Featured Servers"
+filename = "FeaturedServers-1.12-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "52b553e04e07e925e7c92f4e6ce60746da5ed9d4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2634364
+project-id = 306187
