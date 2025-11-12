@@ -1,5 +1,7 @@
 import gregtech.common.ConfigHolder
 
+crafting.removeByOutput(metaitem('crate.wood'))
+
 mods.gregtech.rock_breaker.removeByInput(960, [item('gregtech:stone_smooth', 1)], null)
 mods.gregtech.rock_breaker.removeByInput(960, [item('gregtech:stone_smooth')], null)
 mods.gregtech.rock_breaker.removeByInput(240, [item('chisel:basalt')], null)
@@ -76,4 +78,6 @@ mods.gregtech.centrifuge.recipeBuilder()
 if (!ConfigHolder.recipes.hardMiscRecipes) {
 crafting.addShapeless('ulv_input_bus', metaitem('item_bus.import.ulv'), [metaitem('hull.ulv'), item('minecraft:chest')])
 crafting.addShapeless('ulv_input_hatch', metaitem('fluid_hatch.import.ulv'), [metaitem('hull.ulv'), item('minecraft:glass')])
+crafting.addShapeless('chest_to_crate', metaitem('crate.wood'), [item('minecraft:chest')])
+crafting.addShapeless('crate_to_chest', item('minecraft:chest'), [metaitem('crate.wood')])
 }

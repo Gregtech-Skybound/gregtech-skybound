@@ -3,6 +3,7 @@ mods.jei.ingredient.yeet(item('openblocks:block_placer'))
 mods.jei.ingredient.yeet(item('openblocks:village_highlighter'))
 mods.jei.ingredient.yeet(item('openblocks:tank'))
 crafting.removeByOutput(item('openblocks:block_breaker'))
+crafting.removeByOutput(item('openblocks:vacuum_hopper'))
 
 mods.chisel.carving.addGroup('elevator')
 mods.chisel.carving.addGroup('elevator_rotating')
@@ -70,6 +71,7 @@ for (def elevator_rotating : ore('elevator_rotating')) {
 	mods.chisel.carving.addVariation('elevator_rotating', elevator_rotating)
 }
 
+crafting.addShapeless('vacuum_hopper', item('openblocks:vacuum_hopper'), [item('minecraft:hopper'), item('minecraft:obsidian'), metaitem('ulv_covers:robot.arm.ulv')])
 
 crafting.addShaped('block_breaker', item('openblocks:block_breaker'), [
  [metaitem('plateIron'), metaitem('plateIron'), item('minecraft:cobblestone')],
