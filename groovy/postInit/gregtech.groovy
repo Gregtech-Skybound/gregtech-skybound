@@ -68,7 +68,7 @@ crafting.addShaped('ulv_pump', item('ulv_covers:ulv_cover_meta_item', 1), [
 //Buff Soul Sand Oil output
 mods.gregtech.centrifuge.recipeBuilder()
   .inputs(item('minecraft:soul_sand'))
-  .fluidOutputs(fluid('oil')*1500)
+  .fluidOutputs(fluid('oil')*800)
   .chancedOutput(item('minecraft:nether_wart'), 150, 0)
   .EUt(30)
   .duration(450)
