@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>Day {day}, {mctime} (</str>
+            <if>
+                <var>daytime</var>
+                <str>$eDay</str>
+                <str>$8Night</str>
+            </if>
+            <str> time$f)</str>
+        </line>
+        <line>
+            <str>Biome: $e{biome}$f</str>
+            <if>
+                <var>slimes</var>
+                <str> ($aSlime$f)</str>
+                <str> </str>
+            </if>
+        </line>
+        <line>
+            <str>Light: </str>
+            <max>
+                <var>light</var>
+                <num>7.5</num>
+                <str>$e</str>
+                <str>$c</str>
+            </max>
+            <var>light</var>
+            <str>$r (eye: </str>
+            <max>
+                <var>lighteye</var>
+                <num>7.5</num>
+                <str>$e</str>
+                <str>$c</str>
+            </max>
+            <var>lighteye</var>
+            <str>$r)</str>
+        </line>
+        <line>
+            <str>$fEXP: $e{xpthislevel}$f / $e{xpcap}$f ($e</str>
+            <round>
+                <pct>
+                    <var>xpthislevel</var>
+                    <var>xpcap</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>%$f)</str>
+        </line>
+        <line>
+            <str>FPS: </str>
+            <operation>
+                <str>gt</str>
+                <var>fps</var>
+                <num>60</num>
+                <num>45</num>
+                <num>30</num>
+                <num>15</num>
+                <num>0</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </operation>
+            <var>fps</var>
+        </line>
+        <line>
+            <str>Entities: $e{entitiesrendered}$f / $e{entitiestotal}$f</str>
+        </line>
+    </lines>
+</config>
