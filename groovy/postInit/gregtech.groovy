@@ -81,3 +81,12 @@ crafting.addShapeless('ulv_input_hatch', metaitem('fluid_hatch.import.ulv'), [me
 crafting.addShapeless('chest_to_crate', metaitem('crate.wood'), [item('minecraft:chest')])
 crafting.addShapeless('crate_to_chest', item('minecraft:chest'), [metaitem('crate.wood')])
 }
+
+//Fix sticky resin not working in Steam Extractor
+mods.gregtech.extractor.removeByInput(2, [metaitem('rubber_drop'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
+mods.gregtech.extractor.recipeBuilder()
+  .inputs(metaitem('rubber_drop'))
+  .outputs(metaitem('dustRawRubber')*3)
+  .EUt(2)
+  .duration(210)
+  .buildAndRegister()
