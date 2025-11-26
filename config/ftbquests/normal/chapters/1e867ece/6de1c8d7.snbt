@@ -1,0 +1,20 @@
+{
+	title: "Pipes",
+	icon: "gregtech:fluid_pipe_normal 1 260",
+	x: 5.0d,
+	y: -2.0d,
+	text: [
+		"Well, how do §2Pipes§r actually work? You connect them together or to a block by holding a §9Wrench§r and right-click on the Grid that appears where you want that connection. To only allow stuff to travel from a specific direction, shift right-click the side you only want something to go out, not in and a arrow appears indicating that.",
+		"§4Note§r: §2Pipes§r can only push into something, not pull. You will need something that pushes into the §2Pipes§r, like an §9Hopper§r or use an §2Cover§r like §2Conveyor Belts§r."
+	],
+	dependencies: [
+		"d2ad049b"
+	],
+	tasks: [{
+		uid: "14082cae",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_normal 1 260"
+		}]
+	}]
+}

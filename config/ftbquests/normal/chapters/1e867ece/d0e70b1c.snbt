@@ -1,0 +1,39 @@
+{
+	title: "Sifting Montage II",
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"Look into §2Just Enough Items§r which ores will bring you these."
+	],
+	dependencies: [
+		"a6bfbc7d"
+	],
+	tasks: [{
+		uid: "e3866bf7",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "0c2ac145",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 25"
+		}]
+	},
+	{
+		uid: "6dc3b3ed",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 112"
+		}]
+	},
+	{
+		uid: "8a24547f",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}]
+}

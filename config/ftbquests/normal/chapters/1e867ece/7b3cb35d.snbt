@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	text: [
+		"The §2Primitive Water Pump§r allows you to passively generate §2Water§r, useful for the §2Boiler§r to keep it constantly running. You should make §2Wood Pipes§r to transfer the §9Water§r."
+	],
+	dependencies: [
+		"273a101c"
+	],
+	tasks: [{
+		uid: "0c97fba7",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 10045"
+		}]
+	}]
+}

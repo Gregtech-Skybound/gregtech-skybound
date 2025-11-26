@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: -2.0d,
+	text: [
+		"The §2Block Breaker§r will break blocks infront of it as soon as it gets an redstone signal and outputs its content in an block behind it.",
+		"§1Hint§r: It can output into Gregtech Pipes as well"
+	],
+	dependencies: [
+		"faa8dea4",
+		"4d07c133"
+	],
+	tasks: [{
+		uid: "58fd8fd8",
+		type: "item",
+		items: [{
+			item: "openblocks:block_breaker"
+		}]
+	}]
+}

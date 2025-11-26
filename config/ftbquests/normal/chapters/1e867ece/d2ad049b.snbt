@@ -1,0 +1,35 @@
+{
+	title: "§eAge 1 - Steam Age§r",
+	icon: "gregtech:mte 1 1",
+	x: 5.0d,
+	y: -0.5d,
+	text: [
+		"Obtain §2Bronze§r by crafting §2Bronze Dust§r and smelting it, with it you can craft a §2Boiler§r and thus progress to the §eSteam Age§r and finally make Steam Machines!",
+		"§4Note§r: If you put §eWater§r into the §2Boiler§r while it still has heat (The red bar) when it has no more water in it, it'll explode!"
+	],
+	dependencies: [
+		"4d07c133"
+	],
+	tasks: [{
+		uid: "3bfa3786",
+		type: "item",
+		icon: "gregtech:meta_dust 1 260",
+		items: [{
+			item: "gregtech:meta_dust 1 260"
+		}]
+	},
+	{
+		uid: "ad1f3c76",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 260"
+		}]
+	},
+	{
+		uid: "058fbf9d",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 1"
+		}]
+	}]
+}

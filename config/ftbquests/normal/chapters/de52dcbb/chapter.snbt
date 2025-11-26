@@ -1,6 +1,6 @@
 {
-	title: "Age 0 - Void Age",
-	icon: "minecraft:log",
+	title: "UV+",
+	icon: "gcyl:mte 1 1",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"§2Wrought Iron§r is an Material obtained by smelting §2Iron Nuggets§r in a §9Furnace§r and has more durability for tools than Iron, used to craft the §1Block Breaker§r."
+	],
+	dependencies: [
+		"d0e70b1c"
+	],
+	tasks: [{
+		uid: "5f32e6aa",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}]
+	}]
+}

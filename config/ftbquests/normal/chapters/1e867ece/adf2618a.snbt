@@ -1,0 +1,75 @@
+{
+	title: "Beginning",
+	icon: "exnihilocreatio:block_barrel0",
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		"Lets get directly into what you will need:",
+		"§2Barrel§r - Allows you to create §9Dirt§r by putting compostables like §9Saplings§r or §9Apples§r into it, but also other stuff like §9Clay§r.",
+		"§2Crucible§r - Allows you to obtain §9Water§r by putting compostables into it similar to the §9Barrel§r and can also create §9Clay§r as well.",
+		"§2Crook§r - Allows you to obtain more §9Saplings§r and a special drop called §9Silkworm§r by breaking §9Leaves§r with it. ",
+		"After you obtained your first §9Silkworm§r right click §9Leaves§r with them to infest them, wait till they're fully infested (there's a progress bar) and afterwards break them with the §2Crook§r to obtain §9String§r.",
+		"§2Sieve§r - This will be your main way to obtain resources, it has four types of meshes: §9String Mesh§r, §9Bronze stiffened Mesh§r, §9Steel stiffened Mesh§r and §9Aluminium stiffened Mesh§r.",
+		"Each one of them gives different drops, but right now you can only craft the §9String Mesh§r. You can put multiple together (up to 5x5) and they'll sift multiple blocks at once.",
+		"",
+		"That said, always look into §2Just Enough Items§r (The items on the right) to look up recipes, right click will show you its usages and left click will show you how its made."
+	],
+	dependencies: [
+		"d941a9f7"
+	],
+	tasks: [{
+		uid: "bde4a0b5",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel0"
+		}]
+	},
+	{
+		uid: "11365fa9",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible"
+		},
+		{
+			item: "excompressum:wooden_crucible 1 1"
+		},
+		{
+			item: "excompressum:wooden_crucible 1 2"
+		},
+		{
+			item: "excompressum:wooden_crucible 1 3"
+		},
+		{
+			item: "excompressum:wooden_crucible 1 4"
+		},
+		{
+			item: "excompressum:wooden_crucible 1 5"
+		}]
+	},
+	{
+		uid: "d91bad7b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_wood"
+		},
+		{
+			item: "excompressum:compressed_crook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a5562ef",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}]
+	},
+	{
+		uid: "8833964a",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}]
+	}]
+}

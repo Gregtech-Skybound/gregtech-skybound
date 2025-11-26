@@ -1,0 +1,53 @@
+{
+	title: "Sifting Montage I",
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"You can obtain these by sifting §2Dirt§r, crafting the §9Pebbles§r together in a 2x2 grid will allow you to obtain the corresponding Stone."
+	],
+	dependencies: [
+		"adf2618a"
+	],
+	tasks: [{
+		uid: "bcd31589",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_pebble"
+		}]
+	},
+	{
+		uid: "08872674",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_pebble 1 1"
+		}]
+	},
+	{
+		uid: "c31e6593",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_pebble 1 2"
+		}]
+	},
+	{
+		uid: "859f33e7",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_pebble 1 3"
+		}]
+	},
+	{
+		uid: "ae59738d",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 3"
+		}]
+	},
+	{
+		uid: "3bcd415c",
+		type: "item",
+		items: [{
+			item: "gregtech:rubber_sapling"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"Well, a normal hopper but out of wood (and a bit slower)"
+	],
+	dependencies: [
+		"4d07c133"
+	],
+	tasks: [{
+		uid: "980fa116",
+		type: "item",
+		items: [{
+			item: "wopper:wopper"
+		}]
+	}]
+}

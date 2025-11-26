@@ -1,0 +1,28 @@
+{
+	icon: "gregtech:mte 1 10017",
+	x: 3.5d,
+	y: 1.0d,
+	text: [
+		"The §2Coke Oven§r is the only way to obtain §2Charcoal in this pack and can give you §2Coke§r by putting §2Coal§r into it which will then burn twice as much! It Will also produce §2Creosote Oil§r, which you will need very soon so you should consider building atleast one."
+	],
+	dependencies: [
+		"4d07c133"
+	],
+	tasks: [{
+		uid: "45f2cb10",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 10017"
+		}]
+	},
+	{
+		uid: "8155ff63",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		},
+		{
+			item: "gregtech:meta_gem 1 319"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Covers",
+	icon: "gcyl:gcyl_meta_item 1 389",
+	x: 6.5d,
+	y: -2.0d,
+	text: [
+		"§2Covers§r in Gregtech are basically little utility items you can put on the side of many Gregtech blocks like Machines, Pipes, Creates, ... The block does not need to accept the cover tho if it isn't made for it.",
+		"These §2Covers§r can, as their tooltip suggest, for example transfer items or fluids by putting them on the side of the block where you want it and configure it properly by either shift right-click or using a §9Screwdriver§r and can be removed with an §9Crowbar§r."
+	],
+	dependencies: [
+		"d2ad049b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "953523b5",
+		type: "item",
+		items: [{
+			item: "ulv_covers:ulv_cover_meta_item 1 4"
+		}]
+	},
+	{
+		uid: "735de757",
+		type: "item",
+		items: [{
+			item: "ulv_covers:ulv_cover_meta_item"
+		}]
+	},
+	{
+		uid: "bc424fb9",
+		type: "item",
+		items: [{
+			item: "ulv_covers:ulv_cover_meta_item 1 1"
+		}]
+	}]
+}

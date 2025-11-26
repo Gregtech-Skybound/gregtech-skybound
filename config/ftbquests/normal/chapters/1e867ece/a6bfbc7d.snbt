@@ -1,0 +1,73 @@
+{
+	title: "Hammer",
+	icon: "exnihilocreatio:hammer_wood",
+	x: 0.5d,
+	y: -0.5d,
+	text: [
+		"Craft a §2Hammer§r to crush down §9Cobblestone§r into Gravel -> Sand -> Dust and use the §9Dust§r to directly turn it into §9Clay§r and make a §9Clay Bucket§r.",
+		"§1Hint§r: You can craft §2Compressed Hammer§r and Compressed versions of the blocks you can crush to be alot faster!"
+	],
+	dependencies: [
+		"54fe5f06"
+	],
+	tasks: [{
+		uid: "81380b94",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_wood"
+		},
+		{
+			item: "exnihilocreatio:hammer_stone"
+		},
+		{
+			item: "excompressum:compressed_hammer_wood"
+		},
+		{
+			item: "excompressum:compressed_hammer_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fda5e495",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}]
+	},
+	{
+		uid: "f6170e04",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	},
+	{
+		uid: "01d4d101",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_dust"
+		}]
+	},
+	{
+		uid: "bcf602a1",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}]
+	},
+	{
+		uid: "0a836197",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay"
+		}]
+	},
+	{
+		uid: "26f69540",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}]
+	}]
+}

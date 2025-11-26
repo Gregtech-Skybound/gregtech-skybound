@@ -2,7 +2,7 @@
 	x: -4.0d,
 	y: -0.5d,
 	text: [
-		"TBD"
+		"Welcome to §2Gregtech: Skybound§r! This questbook will help you through the pack, I hope you enjoy your time here!"
 	],
 	tasks: [{
 		uid: "00a6b4a2",

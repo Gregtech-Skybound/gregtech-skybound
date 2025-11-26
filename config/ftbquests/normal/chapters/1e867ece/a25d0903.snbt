@@ -1,0 +1,41 @@
+{
+	icon: "exnihilocreatio:block_crucible 1 1",
+	x: 0.5d,
+	y: -2.0d,
+	text: [
+		"Well, there are 2 §2Crucibles§r, one out of Bricks and one out of Wood, the one out of Bricks covered here allows you to obtain §2Lava§r. Place it over a §9Torch§r and put §9Cobblestone§r in it and it'll slowly produce §2Lava§r.",
+		"§1Hint§r: Letting the §2Lava§r flow to §9Witch Water§r will allow to make an generator that generates an random §9Stone§r and depending on the range it'll generate an specific §9Stone§r as followed:",
+		"1 Block - Random",
+		"2 Blocks - Diorite",
+		"3 Blocks - Granite",
+		"4 and above - Andesite"
+	],
+	dependencies: [
+		"a6bfbc7d"
+	],
+	tasks: [{
+		uid: "f166a88a",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	},
+	{
+		uid: "7a1f43f0",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		},
+		{
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

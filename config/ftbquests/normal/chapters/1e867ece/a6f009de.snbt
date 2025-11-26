@@ -1,0 +1,26 @@
+{
+	title: "Witch Water",
+	x: 0.5d,
+	y: 1.0d,
+	text: [
+		"Make an 5x5 area out of §2Dirt§r and use the §2Ancient Spores§r you've got in the middle of it via right-clicking and place a §2Barrel§r there. Fill the §2Barrel with §9Water§r and it will slowly turn into §2Witch Water§r, it'll go really fast once the §9Mycelium§r has fully spread.",
+		"You can use the §2Witch Water§r to make an §9Dirt§r generator, similar to an §9Cobblestone§r generator but instead of §9Lava§r you use normal §9Water§r and let §2Witch Water§r flow to it."
+	],
+	dependencies: [
+		"a6bfbc7d"
+	],
+	tasks: [{
+		uid: "aaf8f8be",
+		type: "item",
+		items: [{
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "witchwater",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

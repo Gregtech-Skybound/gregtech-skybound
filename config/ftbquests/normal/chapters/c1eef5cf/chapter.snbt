@@ -1,6 +1,6 @@
 {
-	title: "Age 0 - Void Age",
-	icon: "minecraft:log",
+	title: "HV",
+	icon: "gregtech:mte 1 952",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

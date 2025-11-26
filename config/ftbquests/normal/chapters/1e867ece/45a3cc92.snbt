@@ -1,0 +1,34 @@
+{
+	icon: "exnihilocreatio:block_auto_sifter",
+	x: -1.0d,
+	y: -2.0d,
+	text: [
+		"The §2Auto Sifter§r allows you to automate §2Sieves§r by placing them ontop of it and feed the blocks you want to sift through the bottom. You can place multiple ontop and it'll \"shake\" all §9Sieves§r at once, but the more §9Sieves§r there are the longer it'll need.",
+		"You need to connect §2Waterwheels§r to it for it to run, the more there are, the faster it'll go. ",
+		"You can use §2Stone Axles§r as connection between the Sifter and the Waterwheels."
+	],
+	dependencies: [
+		"54fe5f06"
+	],
+	tasks: [{
+		uid: "c19c2876",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_auto_sifter"
+		}]
+	},
+	{
+		uid: "c0498421",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_waterwheel"
+		}]
+	},
+	{
+		uid: "3b7146ea",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_axle_stone"
+		}]
+	}]
+}
